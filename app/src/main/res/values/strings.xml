@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sipma</string>
+    <string name="default_web_client_id">91605354817-md8joqrpleq3tb25du770gka4l1d37gn.apps.googleusercontent.com
+    </string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+</resources>

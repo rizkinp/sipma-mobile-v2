@@ -1,0 +1,64 @@
+<!-- res/layout/activity_detail_pengumuman.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/backgroud">
+
+    <ImageView
+        android:id="@+id/imageViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Ini judul pengumuman"
+        android:textStyle="bold"
+        android:layout_below="@id/imageViewHeader"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvDeskripsi"
+        android:text="ini deskripsi pengumuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="16sp"
+        android:layout_below="@id/tvJudul"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="12sp"
+        android:text="ini tanggal pengumuman dibuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDeskripsi"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btFavorit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/tvTanggal"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Jadikan Favorit"
+        android:textAlignment="center"
+        android:textColor="#FEFEFE"
+        android:textSize="15sp" />
+
+</RelativeLayout>

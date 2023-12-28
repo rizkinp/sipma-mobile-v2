@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/title"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDeskripsi"
+        android:fontFamily="@font/poppinsregular"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/description"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:fontFamily="@font/poppinsregular"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/tanggal"
+        android:layout_height="wrap_content"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/btFavorit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvTanggal"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Jadikan Favorit"
+        android:textAlignment="center"
+        android:textColor="#FEFEFE"
+        android:textSize="15sp" />
+
+</LinearLayout>
